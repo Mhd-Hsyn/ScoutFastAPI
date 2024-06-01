@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  scout_project_image:
+    build:
+      context: .
+    ports:
+      - "1008:1008"
